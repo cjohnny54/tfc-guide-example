@@ -21,11 +21,3 @@ variable "db_write_capacity" {
 variable "tag_user_name" {
   type = string
 }
-
-variable "AWS_ACCESS_KEY_ID" {
-  type = string
-}
-
-variable "AWS_SECRET_ACCESS_KEY_ID" {
-  type = string
-}
