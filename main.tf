@@ -1,8 +1,7 @@
 provider "aws" {
   version = "2.33.0"
-  
-  aws_access_key_id = var.AWS_ACCESS_KEY_ID
-  aws_secret_access_key_id = var.AWS_SECRET_ACCESS_KEY_ID
+  access_key = var.AWS_ACCESS_KEY_ID
+  secret_key = var.AWS_SECRET_ACCESS_KEY_ID
   region = var.aws_region
 }
 
